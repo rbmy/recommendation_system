@@ -34,16 +34,19 @@ In our day-to-day lives, we are often confronted with many options in tasks such
 
 ## Resources/Related Work 
 
-* [1] “Graph neural networks: A review of methods and applications”, Zhou et al
-* [2] “Graph Convolutional Neural Networks for Web-Scale Recommender Systems”,  Ying et al
+* [1] [“Graph neural networks: A review of methods and applications”, Zhou et al](https://www.sciencedirect.com/science/article/pii/S2666651021000012)
+* [2] [“Graph Convolutional Neural Networks for Web-Scale Recommender Systems”,  Ying et al](https://dl.acm.org/doi/pdf/10.1145/3219819.3219890)
 * [3] “Neural Graph Collaborative Filtering“, Wang et al
 * [4] “LightGCN: Simplifying and Powering Graph Convolution
 Network for Recommendation”, He et al
-* [5] “Inductive Representation Learning on Large Graphs”, Hamilton et al
+* [5] [“Inductive Representation Learning on Large Graphs”, Hamilton et al](https://arxiv.org/pdf/1706.02216)
 * [6] “Graph Attention Networks”, Veličković et al
-* [7] “Graph Neural Networks in Recommender Systems: A Survey”, Wu et al
-* [8] “Graph Neural Networks for Social Recommendation”, Fan et al
-* [9] “A Comprehensive Survey on Graph Neural Networks”, Wu et al 
+* [7] [“Graph Neural Networks in Recommender Systems: A Survey”, Wu et al](https://dl.acm.org/doi/pdf/10.1145/3535101)
+* [8] [“Graph Neural Networks for Social Recommendation”, Fan et al](https://arxiv.org/pdf/1902.07243)
+* [9] “A Comprehensive Survey on Graph Neural Networks”, Wu et al
+* [10] ["Representation Learning on Graphs: Methods and Applications", Hamilton et al](https://arxiv.org/pdf/1709.05584)
+* [11] ["Pitfalls of Graph Neural Network Evaluation", Shchur et al](https://arxiv.org/pdf/1811.05868)
+* [12] ["Semi-Supervised Classification With Graph Convolutional Networks"](https://arxiv.org/pdf/1609.02907)
 
 ## Dataset
 * https://pytorch-geometric.readthedocs.io/en/2.6.0/modules/datasets.html
