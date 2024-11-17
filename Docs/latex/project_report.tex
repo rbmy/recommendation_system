@@ -46,15 +46,24 @@ Georgia Institute of Technology\\
 
 %%%%%%%%% ABSTRACT
 \begin{abstract}
-   The ABSTRACT is to be in fully-justified italicized text, at the top
-   of the left-hand column, below the author and affiliation
-   information. Use the word ``Abstract'' as the title, in 12-point
-   Times, boldface type, centered relative to the column, initially
-   capitalized. The abstract is to be in 10-point, single-spaced type.
-   Leave two blank lines after the Abstract, then begin the main text.
-   Look at previous CVPR abstracts to get a feel for style and length. 
-   The abstract section should contain a brief summary of your work that
-   includes the problem statement, proposed solution and results.
+%   The ABSTRACT is to be in fully-justified italicized text, at the top
+%   of the left-hand column, below the author and affiliation
+%   information. Use the word ``Abstract'' as the title, in 12-point
+%   Times, boldface type, centered relative to the column, initially
+%   capitalized. The abstract is to be in 10-point, single-spaced type.
+%   Leave two blank lines after the Abstract, then begin the main text.
+%   Look at previous CVPR abstracts to get a feel for style and length.
+%   The abstract section should contain a brief summary of your work that
+%   includes the problem statement, proposed solution and results.
+   In our day-to-day lives, we are often confronted with many options in
+   tasks such as shopping, finding entertainment, or finding a job.
+   It is not easy to sift through all these options, but having an
+   intelligent recommendation system can increase the quality of your experience.
+   Vanilla Graph Neural Networks (GNNs) are great at creating recommendation systems,
+   but there is room for improvement. Vanilla GNNs, for example,
+   do not use attention techniques or convolution for feature extraction,
+   and a vanilla GNN may not generalize well to new data. In this project, we will
+   examine and compare more sophisticated architectures.
 \end{abstract}
 
 %%%%%%%%% BODY TEXT
@@ -71,11 +80,11 @@ Georgia Institute of Technology\\
 %------------------------------------------------------------------------
 \section{Approach}
 
-(10 points) What did you do exactly? How did you solve the problem? Why did you think it would be successful? Is anything new in your approach? 
+%(10 points) What did you do exactly? How did you solve the problem? Why did you think it would be successful? Is anything new in your approach?
 
-(5 points) What problems did you anticipate? What problems did you encounter? Did the very first thing you tried work? 
+%(5 points) What problems did you anticipate? What problems did you encounter? Did the very first thing you tried work?
 
-\textbf{Important: Mention any code repositories (with citations) or other sources that you used, and specifically what changes you made to them for your project. }
+%\textbf{Important: Mention any code repositories (with citations) or other sources that you used, and specifically what changes you made to them for your project. }
 
 \section{Experiments and Results}
 
@@ -187,7 +196,7 @@ found elsewhere, and refer them to a technical report.  For conference
 submissions, the paper must stand on its own, and not {\em require} the
 reviewer to go to a techreport for further details.  Thus, you may say in
 the body of the paper ``further details may be found
-in~\cite{Authors14b}''.  Then submit the techreport as additional material.
+in~\cite{Authors01}''.  Then submit the techreport as additional material.
 Again, you may not assume the reviewers will read this material.
 
 Sometimes your paper is about a problem which you tested using a tool which
@@ -264,17 +273,17 @@ shortened to ``\etal'' (not ``{\em et.\ al.}'' as ``{\em et}'' is a complete wor
 However, use it only when there are three or more authors.  Thus, the
 following is correct: ``
    Frobnication has been trendy lately.
-   It was introduced by Alpher~\cite{Alpher02}, and subsequently developed by
-   Alpher and Fotheringham-Smythe~\cite{Alpher03}, and Alpher \etal~\cite{Alpher04}.''
+   It was introduced by Alpher~\cite{Authors01}, and subsequently developed by
+   Alpher and Fotheringham-Smythe~\cite{Authors01}, and Alpher \etal~\cite{Authors01}.''
 
-This is incorrect: ``... subsequently developed by Alpher \etal~\cite{Alpher03} ...''
-because reference~\cite{Alpher03} has just two authors.  If you use the
+This is incorrect: ``... subsequently developed by Alpher \etal~\cite{Authors01} ...''
+because reference~\cite{Authors01} has just two authors.  If you use the
 \verb'\etal' macro provided, then you need not worry about double periods
 when used at the end of a sentence as in Alpher \etal.
 
 For this citation style, keep multiple citations in numerical (not
-chronological) order, so prefer \cite{Alpher03,Alpher02,Authors14} to
-\cite{Alpher02,Alpher03,Authors14}.
+chronological) order, so prefer \cite{Authors01,Authors01,Authors01} to
+\cite{Authors01,Authors01,Authors01}.
 
 
 \begin{figure*}
@@ -370,7 +379,7 @@ which it is referenced. Use Times 8-point type, single-spaced.
 List and number all bibliographical references in 9-point Times,
 single-spaced, at the end of your paper. When referenced in the text,
 enclose the citation number in square brackets, for
-example~\cite{Authors14}.  Where appropriate, include the name(s) of
+example~\cite{Authors01}.  Where appropriate, include the name(s) of
 editors of referenced books.
 
 \begin{table}
